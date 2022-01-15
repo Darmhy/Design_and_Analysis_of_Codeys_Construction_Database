@@ -1,35 +1,37 @@
+-- Inser values into the tables
+
 INSERT INTO projects (id,name,value,start_date,end_date)
 		VALUES 	(1,'East Ave Shermans Diner',250000.0,2008-03-01,2012-05-15),
-				(2,'Big Money Bank',560000.0,2012-02-15,2015-09-01),
-				(3,'Central Valley Hospital',54000.0,2013-12-01,2017-09-15),
-				(4,'Washington Avenue Barber',10000.0,2015-07-01,2020-08-01),
-				(5,"Hamill, Berge and Adams Office",NULL,2018-01-01,2024-12-01);
+			(2,'Big Money Bank',560000.0,2012-02-15,2015-09-01),
+			(3,'Central Valley Hospital',54000.0,2013-12-01,2017-09-15),
+			(4,'Washington Avenue Barber',10000.0,2015-07-01,2020-08-01),
+			(5,"Hamill, Berge and Adams Office",NULL,2018-01-01,2024-12-01);
 
 
 INSERT INTO employees (id, first_name, last_name, hourly_wage, hire_date)
 	VALUES 	(1,'Zechariah','Langosh',56.00,2016-10-04),
-			(2,'Elmer','Barton',60.00,2014-11-16),
-			(3,'Macie','Kautzer',59.10,2016-10-18),
-			(4,'Janice','Mills',54.00,2012-05-21),
-			(5,'Lillie','Donnelly',48.50,2012-05-03),
-			(6,'Agnes','Zulauf',56.00,2017-10-11),
-			(7,'Kellie','Sauer',60.00,2012-03-08),
-			(8,'Juanita','Swift',36.25,2015-05-26),
-			(9,'Faye','Renner',33.00,2010-06-11),
-			(10,'Ernestina','Langworth',34.00,2010-03-26),
-			(11,'Melissa','Pouros',14.00,2010-04-12),
-			(12,'Ubaldo','Predovic',13.00,2011-12-21),
-			(13,'Osvaldo','Funk',26.00,2009-02-28),
-			(14,'Jamey','Romaguera',37.50,2017-03-08),
-			(15,'Jackeline','Hilpert',51.00,2009-01-18),
-			(16,'Santos','Heidenreich',15.00,2016-03-12),
-			(17,'Jessyca','Leuschke',43.00,2008-08-05),
-			(18,'Dedric','Hamill',16.00,2010-06-24),
-			(19,'Pearl','Champlin',50.50,2013-03-30),
-			(20,'Ophelia','Price',42.00,2010-01-30),
-			(21,'Tess','Hermiston',59.00,2015-01-22),
-			(22,'Salvatore','Borer',20.25,2009-08-02),
-			(23,'Flo','Davis',57.00,2015-01-16);
+		(2,'Elmer','Barton',60.00,2014-11-16),
+		(3,'Macie','Kautzer',59.10,2016-10-18),
+		(4,'Janice','Mills',54.00,2012-05-21),
+		(5,'Lillie','Donnelly',48.50,2012-05-03),
+		(6,'Agnes','Zulauf',56.00,2017-10-11),
+		(7,'Kellie','Sauer',60.00,2012-03-08),
+		(8,'Juanita','Swift',36.25,2015-05-26),
+		(9,'Faye','Renner',33.00,2010-06-11),
+		(10,'Ernestina','Langworth',34.00,2010-03-26),
+		(11,'Melissa','Pouros',14.00,2010-04-12),
+		(12,'Ubaldo','Predovic',13.00,2011-12-21),
+		(13,'Osvaldo','Funk',26.00,2009-02-28),
+		(14,'Jamey','Romaguera',37.50,2017-03-08),
+		(15,'Jackeline','Hilpert',51.00,2009-01-18),
+		(16,'Santos','Heidenreich',15.00,2016-03-12),
+		(17,'Jessyca','Leuschke',43.00,2008-08-05),
+		(18,'Dedric','Hamill',16.00,2010-06-24),
+		(19,'Pearl','Champlin',50.50,2013-03-30),
+		(20,'Ophelia','Price',42.00,2010-01-30),
+		(21,'Tess','Hermiston',59.00,2015-01-22),
+		(22,'Salvatore','Borer',20.25,2009-08-02),
+		(23,'Flo','Davis',57.00,2015-01-16);
 
 
 INSERT INTO project_employees (employee_id,project_id,hours)
@@ -77,22 +79,22 @@ INSERT INTO project_employees (employee_id,project_id,hours)
 			
 INSERT INTO project_feedbacks (project_id,customer_id,project_feedback)
 	VALUES	(2051,3,"Codey's helped us carry out our vision perfectly and within budget!"),
-			(35791,2,"Codey's Construction did an incredible job repairing our C Wing."),
-			(63395,1,"Amazing work! Our new classroom looks great."),
-			(81925,2,"Always a pleasure working with the Codey's team.");
+		(35791,2,"Codey's Construction did an incredible job repairing our C Wing."),
+		(63395,1,"Amazing work! Our new classroom looks great."),
+		(81925,2,"Always a pleasure working with the Codey's team.");
 			
 INSERT INTO customers (name,industry,project1_id,project1_feedback,project2_id,project2_feedback,contact_person_id,contact_person_and_role,phone_number,address,city,zip)
 VALUES  ("Next University", "Education", 63395, "Amazing work! Our new classroom looks great.", NULL,NULL,1,"Mai Nguyen, Head of Operations",555-555-5555,"1 Coding Lane", "Next",99999),
-		("XYZ Health Center", "Healthcare",81925, "Always a pleasure working with the Codey's team.",35791,"Codey's Construction did an incredible job repairing our C Wing.",2,"Fox Torres, Construction Committee Head",123-456-7890,"88 Hospital Avenue", "Healersville",55555),
-		("ArchiTECHS", "Architecture",2051,"Codey's helped us carry out our vision perfectly and within budget!",NULL,NULL,3,"Bernadette Laux, Project Manager",111-222-3333, "77 Tower Street", "Gridlock",12345);
+	("XYZ Health Center", "Healthcare",81925, "Always a pleasure working with the Codey's team.",35791,"Codey's Construction did an incredible job repairing our C Wing.",2,"Fox Torres, Construction Committee Head",123-456-7890,"88 Hospital Avenue", "Healersville",55555),
+	("ArchiTECHS", "Architecture",2051,"Codey's helped us carry out our vision perfectly and within budget!",NULL,NULL,3,"Bernadette Laux, Project Manager",111-222-3333, "77 Tower Street", "Gridlock",12345);
 		
 INSERT INTO contractors (id,first_name,last_name,hourly_wage,hire_date)
 VALUES	(1,'Rose','Morales',24.25,2018-03-12),
-		(2,'Elmer','Barton',60.00,2014-11-16),
-		(3,'Uma','Potter',33.75,2010-08-17),
-		(4,'Janice','Mills',54.00,2012-05-21),
-		(5,'Lillie','Donnelly',48.50,2012-05-03),
-		(6,'Freya','Savage',14.00,2017-06-30);
+	(2,'Elmer','Barton',60.00,2014-11-16),
+	(3,'Uma','Potter',33.75,2010-08-17),
+	(4,'Janice','Mills',54.00,2012-05-21),
+	(5,'Lillie','Donnelly',48.50,2012-05-03),
+	(6,'Freya','Savage',14.00,2017-06-30);
 
 
 INSERT INTO job_orders (id,employee_id,project_id,description,order_datetime,quantity,price)
