@@ -1,4 +1,6 @@
 # Building and Analysis of Codeys Construction Company database
+
+# Overview
 This project was developed in response to the SQL course on [next.tech](next.tech) by Lorraine Li. The course is highly intereactive, responsive and educative in establishing a strong foundation on the concepts of databases and SQL (Structured Query Language).
 
 ## Aim and methods
