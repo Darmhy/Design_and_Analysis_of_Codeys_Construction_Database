@@ -1,4 +1,4 @@
--- Knowledge questions for 
+-- Knowledge questions in Intermediate Queries, last section of the course, There are 5 main questions 
 
 -- Questions 1/8
 /*Write a single query to pull data for Ubaldo Predovic and Tess Hermiston. The column names should be "Employee ID", "First Name", "Last Name", and "Hours".*/
